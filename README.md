@@ -1,4 +1,4 @@
-# my-project
+# Art Timeline
 
 ## Overview
 
