@@ -8,6 +8,8 @@
 
     /* Bundler mode */
     "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
     "isolatedModules": true,
     "jsx": "react-jsx",
 

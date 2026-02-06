@@ -1,0 +1,695 @@
+[
+  {
+    "century": "4th millennium BC",
+    "period": "Ancient",
+    "description": "Rise of civilization: Mesopotamia, Sumer, early writing (cuneiform), first cities",
+    "artMovements": [
+      {
+        "name": "Mesopotamian Art",
+        "countries": [
+          {
+            "country": "Mesopotamia (modern Iraq)",
+            "artists": [
+              {
+                "name": "Unknown Mesopotamian Artist",
+                "photoWikiTitle": "Mesopotamian art",
+                "paintingWikiTitle": "Standard of Ur",
+                "paintingTitle": "Standard of Ur"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "century": "3rd millennium BC",
+    "period": "Ancient",
+    "description": "Egyptian pyramids, Indus Valley civilization, Bronze Age begins",
+    "artMovements": [
+      {
+        "name": "Ancient Egyptian Art",
+        "countries": [
+          {
+            "country": "Ancient Egypt",
+            "artists": [
+              {
+                "name": "Unknown Egyptian Master",
+                "photoWikiTitle": "Ancient Egyptian art",
+                "paintingWikiTitle": "Nebamun",
+                "paintingTitle": "Tomb of Nebamun"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "century": "2nd millennium BC",
+    "period": "Ancient",
+    "description": "Code of Hammurabi, Mycenaean Greece, Shang Dynasty China",
+    "artMovements": [
+      {
+        "name": "Mycenaean Art",
+        "countries": [
+          {
+            "country": "Mycenaean Greece",
+            "artists": [
+              {
+                "name": "Mycenaean Artisan",
+                "photoWikiTitle": "Mycenaean Greece",
+                "paintingWikiTitle": "Warrior Vase",
+                "paintingTitle": "Warrior Vase"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "century": "1st millennium BC",
+    "period": "Ancient",
+    "description": "Iron Age, classical Greece, Roman Republic, Buddha & Confucius",
+    "artMovements": [
+      {
+        "name": "Classical Greek Art",
+        "countries": [
+          {
+            "country": "Ancient Greece",
+            "artists": [
+              {
+                "name": "Phidias",
+                "photoWikiTitle": "Phidias",
+                "paintingWikiTitle": "Parthenon Frieze",
+                "paintingTitle": "Parthenon Frieze"
+              },
+              {
+                "name": "Praxiteles",
+                "photoWikiTitle": "Praxiteles",
+                "paintingWikiTitle": "Hermes and the Infant Dionysus",
+                "paintingTitle": "Hermes and the Infant Dionysus"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "century": "1st century",
+    "period": "Classical",
+    "description": "Roman Empire at peak, birth of Christianity, Han Dynasty China",
+    "artMovements": [
+      {
+        "name": "Roman Art",
+        "countries": [
+          {
+            "country": "Roman Empire (Italy)",
+            "artists": [
+              {
+                "name": "Unknown Roman Master",
+                "photoWikiTitle": "Roman art",
+                "paintingWikiTitle": "Villa of the Mysteries",
+                "paintingTitle": "Villa of the Mysteries"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "century": "2nd–3rd century",
+    "period": "Classical",
+    "description": "Pax Romana, spread of Christianity, Crisis of the Third Century",
+    "artMovements": [
+      {
+        "name": "Early Christian Art",
+        "countries": [
+          {
+            "country": "Roman Empire (Italy)",
+            "artists": [
+              {
+                "name": "Early Christian Artisan",
+                "photoWikiTitle": "Early Christian art",
+                "paintingWikiTitle": "Catacombs of Rome",
+                "paintingTitle": "Catacomb Frescoes"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "century": "4th–5th century",
+    "period": "Late Antiquity",
+    "description": "Christianity state religion, fall of Western Roman Empire, Gupta India",
+    "artMovements": [
+      {
+        "name": "Byzantine Art",
+        "countries": [
+          {
+            "country": "Byzantine Empire (modern Turkey)",
+            "artists": [
+              {
+                "name": "Byzantine Master",
+                "photoWikiTitle": "Byzantine art",
+                "paintingWikiTitle": "Hagia Sophia",
+                "paintingTitle": "Hagia Sophia Mosaics"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "century": "6th–7th century",
+    "period": "Early Medieval",
+    "description": "Byzantine Empire, rise of Islam, Tang Dynasty China",
+    "artMovements": [
+      {
+        "name": "Early Medieval Art",
+        "countries": [
+          {
+            "country": "Ireland",
+            "artists": [
+              {
+                "name": "Medieval Illuminator",
+                "photoWikiTitle": "Illuminated manuscript",
+                "paintingWikiTitle": "Book of Kells",
+                "paintingTitle": "Book of Kells"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "century": "8th–9th century",
+    "period": "Early Medieval",
+    "description": "Carolingian Renaissance, Viking Age, Abbasid Golden Age",
+    "artMovements": [
+      {
+        "name": "Carolingian Art",
+        "countries": [
+          {
+            "country": "Frankish Empire (France/Germany)",
+            "artists": [
+              {
+                "name": "Carolingian Scribe",
+                "photoWikiTitle": "Carolingian art",
+                "paintingWikiTitle": "Utrecht Psalter",
+                "paintingTitle": "Utrecht Psalter"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "century": "10th–11th century",
+    "period": "High Medieval",
+    "description": "Feudalism, Norman Conquest, Crusades begin, Song Dynasty",
+    "artMovements": [
+      {
+        "name": "Romanesque Art",
+        "countries": [
+          {
+            "country": "France",
+            "artists": [
+              {
+                "name": "Romanesque Master",
+                "photoWikiTitle": "Romanesque art",
+                "paintingWikiTitle": "Bayeux Tapestry",
+                "paintingTitle": "Bayeux Tapestry"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "century": "12th–13th century",
+    "period": "High Medieval",
+    "description": "Gothic cathedrals, universities, Mongol Empire, Magna Carta",
+    "artMovements": [
+      {
+        "name": "Gothic Art",
+        "countries": [
+          {
+            "country": "Italy",
+            "artists": [
+              {
+                "name": "Giotto di Bondone",
+                "photoWikiTitle": "Giotto",
+                "paintingWikiTitle": "Scrovegni Chapel",
+                "paintingTitle": "Scrovegni Chapel Frescoes"
+              },
+              {
+                "name": "Cimabue",
+                "photoWikiTitle": "Cimabue",
+                "paintingWikiTitle": "Santa Trinita Maestà",
+                "paintingTitle": "Maestà of Santa Trinita"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "century": "14th century",
+    "period": "Late Medieval",
+    "description": "Black Death, Hundred Years' War, Renaissance begins in Italy",
+    "artMovements": [
+      {
+        "name": "International Gothic",
+        "countries": [
+          {
+            "country": "Italy",
+            "artists": [
+              {
+                "name": "Simone Martini",
+                "photoWikiTitle": "Simone Martini",
+                "paintingWikiTitle": "Annunciation (Martini)",
+                "paintingTitle": "Annunciation (Simone Martini)"
+              },
+              {
+                "name": "Duccio di Buoninsegna",
+                "photoWikiTitle": "Duccio",
+                "paintingWikiTitle": "Maestà (Duccio)",
+                "paintingTitle": "Maestà"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "century": "15th century",
+    "period": "Renaissance",
+    "description": "Gutenberg press, fall of Constantinople, Columbus, Ming China",
+    "artMovements": [
+      {
+        "name": "Italian Renaissance",
+        "countries": [
+          {
+            "country": "Italy",
+            "artists": [
+              {
+                "name": "Leonardo da Vinci",
+                "photoWikiTitle": "Leonardo da Vinci",
+                "paintingWikiTitle": "Mona Lisa",
+                "paintingTitle": "Mona Lisa"
+              },
+              {
+                "name": "Sandro Botticelli",
+                "photoWikiTitle": "Sandro Botticelli",
+                "paintingWikiTitle": "The Birth of Venus",
+                "paintingTitle": "The Birth of Venus"
+              }
+            ]
+          },
+          {
+            "country": "Netherlands (Flanders)",
+            "artists": [
+              {
+                "name": "Jan van Eyck",
+                "photoWikiTitle": "Jan van Eyck",
+                "paintingWikiTitle": "Arnolfini Portrait",
+                "paintingTitle": "The Arnolfini Portrait"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "century": "16th century",
+    "period": "Early Modern",
+    "description": "Reformation, Age of Discovery, Spanish Empire, Mughal India",
+    "artMovements": [
+      {
+        "name": "High Renaissance & Mannerism",
+        "countries": [
+          {
+            "country": "Italy",
+            "artists": [
+              {
+                "name": "Michelangelo",
+                "photoWikiTitle": "Michelangelo",
+                "paintingWikiTitle": "Sistine Chapel ceiling",
+                "paintingTitle": "Sistine Chapel Ceiling"
+              },
+              {
+                "name": "Raphael",
+                "photoWikiTitle": "Raphael",
+                "paintingWikiTitle": "The School of Athens",
+                "paintingTitle": "The School of Athens"
+              },
+              {
+                "name": "Titian",
+                "photoWikiTitle": "Titian",
+                "paintingWikiTitle": "Assumption of the Virgin (Titian)",
+                "paintingTitle": "Assumption of the Virgin"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "century": "17th century",
+    "period": "Early Modern",
+    "description": "Scientific Revolution, Thirty Years' War, Enlightenment begins",
+    "artMovements": [
+      {
+        "name": "Baroque",
+        "countries": [
+          {
+            "country": "Italy",
+            "artists": [
+              {
+                "name": "Caravaggio",
+                "photoWikiTitle": "Caravaggio",
+                "paintingWikiTitle": "The Calling of St Matthew (Caravaggio)",
+                "paintingTitle": "The Calling of St. Matthew"
+              }
+            ]
+          },
+          {
+            "country": "Netherlands",
+            "artists": [
+              {
+                "name": "Rembrandt van Rijn",
+                "photoWikiTitle": "Rembrandt",
+                "paintingWikiTitle": "The Night Watch",
+                "paintingTitle": "The Night Watch"
+              }
+            ]
+          },
+          {
+            "country": "Spain",
+            "artists": [
+              {
+                "name": "Diego Velázquez",
+                "photoWikiTitle": "Diego Velázquez",
+                "paintingWikiTitle": "Las Meninas",
+                "paintingTitle": "Las Meninas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "century": "18th century",
+    "period": "Enlightenment",
+    "description": "Industrial Revolution begins, American & French Revolutions",
+    "artMovements": [
+      {
+        "name": "Rococo & Neoclassicism",
+        "countries": [
+          {
+            "country": "France",
+            "artists": [
+              {
+                "name": "Jean-Honoré Fragonard",
+                "photoWikiTitle": "Jean-Honoré Fragonard",
+                "paintingWikiTitle": "The Swing (Fragonard)",
+                "paintingTitle": "The Swing"
+              },
+              {
+                "name": "Jacques-Louis David",
+                "photoWikiTitle": "Jacques-Louis David",
+                "paintingWikiTitle": "Oath of the Horatii",
+                "paintingTitle": "The Oath of the Horatii"
+              }
+            ]
+          },
+          {
+            "country": "Spain",
+            "artists": [
+              {
+                "name": "Francisco Goya",
+                "photoWikiTitle": "Francisco Goya",
+                "paintingWikiTitle": "The Third of May 1808",
+                "paintingTitle": "The Third of May 1808"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "century": "19th century",
+    "period": "Industrial",
+    "description": "Railways, telegraph, imperialism, nationalism, abolition of slavery",
+    "artMovements": [
+      {
+        "name": "Romanticism",
+        "countries": [
+          {
+            "country": "France",
+            "artists": [
+              {
+                "name": "Eugène Delacroix",
+                "photoWikiTitle": "Eugène Delacroix",
+                "paintingWikiTitle": "Liberty Leading the People",
+                "paintingTitle": "Liberty Leading the People"
+              }
+            ]
+          },
+          {
+            "country": "United Kingdom",
+            "artists": [
+              {
+                "name": "J.M.W. Turner",
+                "photoWikiTitle": "J. M. W. Turner",
+                "paintingWikiTitle": "The Fighting Temeraire",
+                "paintingTitle": "The Fighting Temeraire"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Impressionism",
+        "countries": [
+          {
+            "country": "France",
+            "artists": [
+              {
+                "name": "Claude Monet",
+                "photoWikiTitle": "Claude Monet",
+                "paintingWikiTitle": "Water Lilies (Monet series)",
+                "paintingTitle": "Water Lilies"
+              },
+              {
+                "name": "Pierre-Auguste Renoir",
+                "photoWikiTitle": "Pierre-Auguste Renoir",
+                "paintingWikiTitle": "Luncheon of the Boating Party",
+                "paintingTitle": "Luncheon of the Boating Party"
+              },
+              {
+                "name": "Edgar Degas",
+                "photoWikiTitle": "Edgar Degas",
+                "paintingWikiTitle": "The Ballet Class",
+                "paintingTitle": "The Ballet Class"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Post-Impressionism",
+        "countries": [
+          {
+            "country": "Netherlands",
+            "artists": [
+              {
+                "name": "Vincent van Gogh",
+                "photoWikiTitle": "Vincent van Gogh",
+                "paintingWikiTitle": "The Starry Night",
+                "paintingTitle": "The Starry Night"
+              }
+            ]
+          },
+          {
+            "country": "France",
+            "artists": [
+              {
+                "name": "Paul Cézanne",
+                "photoWikiTitle": "Paul Cézanne",
+                "paintingWikiTitle": "Mont Sainte-Victoire (Cézanne)",
+                "paintingTitle": "Mont Sainte-Victoire"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "century": "20th century",
+    "period": "Modern",
+    "description": "World Wars, Cold War, space race, digital revolution, decolonization",
+    "artMovements": [
+      {
+        "name": "Cubism",
+        "countries": [
+          {
+            "country": "Spain",
+            "artists": [
+              {
+                "name": "Pablo Picasso",
+                "photoWikiTitle": "Pablo Picasso",
+                "paintingWikiTitle": "Guernica (Picasso)",
+                "paintingTitle": "Guernica"
+              }
+            ]
+          },
+          {
+            "country": "France",
+            "artists": [
+              {
+                "name": "Georges Braque",
+                "photoWikiTitle": "Georges Braque",
+                "paintingWikiTitle": "Violin and Candlestick",
+                "paintingTitle": "Violin and Candlestick"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Surrealism",
+        "countries": [
+          {
+            "country": "Spain",
+            "artists": [
+              {
+                "name": "Salvador Dalí",
+                "photoWikiTitle": "Salvador Dalí",
+                "paintingWikiTitle": "The Persistence of Memory",
+                "paintingTitle": "The Persistence of Memory"
+              }
+            ]
+          },
+          {
+            "country": "Mexico",
+            "artists": [
+              {
+                "name": "Frida Kahlo",
+                "photoWikiTitle": "Frida Kahlo",
+                "paintingWikiTitle": "The Two Fridas",
+                "paintingTitle": "The Two Fridas"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Abstract Expressionism",
+        "countries": [
+          {
+            "country": "United States",
+            "artists": [
+              {
+                "name": "Jackson Pollock",
+                "photoWikiTitle": "Jackson Pollock",
+                "paintingWikiTitle": "No. 5, 1948",
+                "paintingTitle": "No. 5, 1948"
+              },
+              {
+                "name": "Willem de Kooning",
+                "photoWikiTitle": "Willem de Kooning",
+                "paintingWikiTitle": "Woman I",
+                "paintingTitle": "Woman I"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Pop Art",
+        "countries": [
+          {
+            "country": "United States",
+            "artists": [
+              {
+                "name": "Andy Warhol",
+                "photoWikiTitle": "Andy Warhol",
+                "paintingWikiTitle": "Campbell's Soup Cans",
+                "paintingTitle": "Campbell's Soup Cans"
+              },
+              {
+                "name": "Roy Lichtenstein",
+                "photoWikiTitle": "Roy Lichtenstein",
+                "paintingWikiTitle": "Whaam!",
+                "paintingTitle": "Whaam!"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "century": "21st century",
+    "period": "Contemporary",
+    "description": "Global connectivity, climate awareness, AI & automation, pandemic era",
+    "artMovements": [
+      {
+        "name": "Contemporary Art",
+        "countries": [
+          {
+            "country": "United Kingdom",
+            "artists": [
+              {
+                "name": "Banksy",
+                "photoWikiTitle": "Banksy",
+                "paintingWikiTitle": "Girl with Balloon",
+                "paintingTitle": "Girl with Balloon"
+              }
+            ]
+          },
+          {
+            "country": "Japan",
+            "artists": [
+              {
+                "name": "Yayoi Kusama",
+                "photoWikiTitle": "Yayoi Kusama",
+                "paintingWikiTitle": "Infinity Mirror Rooms",
+                "paintingTitle": "Infinity Mirror Rooms"
+              }
+            ]
+          },
+          {
+            "country": "China",
+            "artists": [
+              {
+                "name": "Ai Weiwei",
+                "photoWikiTitle": "Ai Weiwei",
+                "paintingWikiTitle": "Sunflower Seeds (installation)",
+                "paintingTitle": "Sunflower Seeds"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

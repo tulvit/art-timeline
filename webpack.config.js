@@ -48,7 +48,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: './index.html',
-      title: "it's my first AI project",
+      title: "Art History Timeline",
     }),
   ],
   devServer: {
