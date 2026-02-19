@@ -52,9 +52,7 @@ module.exports = {
     }),
   ],
   devServer: {
-    static: {
-      directory: path.join(__dirname, 'dist'),
-    },
+    static: false,
     compress: true,
     port: 3000,
     hot: true,
