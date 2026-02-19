@@ -1,5 +1,3 @@
-import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
-import 'react-vertical-timeline-component/style.min.css';
 import { movements } from './data/movements';
 
 const sortedMovements = [...movements].sort((a, b) => a.startYear - b.startYear);
@@ -11,48 +9,77 @@ function formatYear(year: number): string {
 
 function App() {
   return (
-    <div className="min-h-screen bg-[#0f0f12] text-gray-100 font-sans antialiased">
+    <div className="min-h-screen font-sans antialiased" style={{ background: 'var(--art-bg)', color: 'var(--art-text)' }}>
       <div className="max-w-4xl mx-auto py-12 px-4">
-        <h1 className="text-4xl font-semibold text-center text-white tracking-tight mb-12">
+        <h1
+          className="text-4xl font-semibold text-center tracking-tight mb-2"
+          style={{ fontFamily: "'Cormorant Garamond', serif", color: 'var(--art-text)' }}
+        >
           Art History Timeline
         </h1>
+        <p className="text-center text-lg mb-12" style={{ color: 'var(--art-text-muted)' }}>
+          History timeline — ancient times to modern era
+        </p>
 
-        <VerticalTimeline
-          layout="2-columns"
-          animate={true}
-          lineColor="#3b82f6"
-          className="vertical-timeline-custom-line"
-        >
-          {sortedMovements.map((m) => (
-            <VerticalTimelineElement
+        <div className="relative">
+          {/* Vertical line */}
+          <div
+            className="absolute left-1/2 top-0 bottom-0 w-0.5 -ml-px"
+            style={{ background: 'var(--art-accent)' }}
+            aria-hidden
+          />
+          {/* Timeline items */}
+          {sortedMovements.map((m, i) => (
+            <div
               key={m.id}
-              id={m.id}
-              className="vertical-timeline-element--work"
-              contentStyle={{
-                background: 'rgba(30, 30, 36, 0.95)',
-                color: '#e5e7eb',
-                border: '1px solid rgba(59, 130, 246, 0.2)',
-                borderRadius: '12px',
-              }}
-              contentArrowStyle={{ borderRight: '7px solid rgba(30, 30, 36, 0.95)' }}
-              date={`${formatYear(m.startYear)} – ${formatYear(m.endYear)}`}
-              dateClassName="text-gray-300 font-medium"
-              iconStyle={{
-                background: '#3b82f6',
-                color: '#fff',
-                boxShadow: '0 0 0 4px rgba(59, 130, 246, 0.2)',
-              }}
+              className={`relative flex items-stretch gap-6 mb-8 last:mb-0 ${
+                i % 2 === 0 ? 'flex-row' : 'flex-row-reverse'
+              }`}
             >
-              <h3 className="vertical-timeline-element-title text-lg font-semibold text-white">
-                {m.name}
-              </h3>
-              <h4 className="vertical-timeline-element-subtitle text-sm text-gray-400 mt-1">
-                Regions: {m.regionCodes.join(', ')}
-              </h4>
-              <p className="text-xs text-gray-500 mt-2">ID: {m.id}</p>
-            </VerticalTimelineElement>
+              {/* Date (outside card, on the side) */}
+              <div
+                className={`flex-1 flex items-center ${
+                  i % 2 === 0 ? 'justify-end pr-6' : 'justify-start pl-6'
+                }`}
+              >
+                <span className="text-sm font-medium whitespace-nowrap" style={{ color: 'var(--art-text-muted)' }}>
+                  {formatYear(m.startYear)} – {formatYear(m.endYear)}
+                </span>
+              </div>
+              {/* Center dot */}
+              <div
+                className="relative z-10 flex-shrink-0 w-4 h-4 rounded-full mt-1"
+                style={{ background: 'var(--art-accent)', boxShadow: '0 0 0 4px var(--art-accent-soft)' }}
+              />
+              {/* Card */}
+              <div
+                className={`flex-1 flex items-stretch ${
+                  i % 2 === 0 ? 'pl-6' : 'pr-6'
+                }`}
+              >
+                <div
+                  className="flex-1 rounded-xl border p-4 text-left transition-shadow hover:shadow-lg"
+                  style={{
+                    background: 'var(--art-surface)',
+                    borderColor: 'var(--art-border)',
+                    color: 'var(--art-text)',
+                    boxShadow: '0 2px 12px rgba(0,0,0,0.08)',
+                  }}
+                >
+                  <h3 className="text-lg font-semibold" style={{ color: 'var(--art-text)' }}>
+                    {m.name}
+                  </h3>
+                  <p className="text-sm mt-1" style={{ color: 'var(--art-text-muted)' }}>
+                    Regions: {m.regionCodes.join(', ')}
+                  </p>
+                  <p className="text-xs mt-2" style={{ color: 'var(--art-text-faint)' }}>
+                    ID: {m.id}
+                  </p>
+                </div>
+              </div>
+            </div>
           ))}
-        </VerticalTimeline>
+        </div>
       </div>
     </div>
   );

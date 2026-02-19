@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,8 +6,16 @@
 
 :root {
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  --art-bg: #f5f1eb;
+  --art-surface: #fffbf7;
+  --art-border: rgba(196, 112, 74, 0.4);
+  --art-accent: #b85a38;
+  --art-accent-soft: rgba(196, 112, 74, 0.2);
+  --art-text: #1c1b19;
+  --art-text-muted: #5c5650;
+  --art-text-faint: #8a837b;
 }
 
 body {
-  background: #0f0f12;
+  background: var(--art-bg);
 }
