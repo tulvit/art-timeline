@@ -7,6 +7,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.[contenthash].js',
+    publicPath: '/',
     clean: true,
   },
   resolve: {
@@ -52,11 +53,34 @@ module.exports = {
     }),
   ],
   devServer: {
-    static: false,
+    static: {
+      directory: path.join(__dirname, 'public'),
+    },
     compress: true,
     port: 3000,
     hot: true,
     open: true,
+    historyApiFallback: true,
+    setupMiddlewares: (middlewares, devServer) => {
+      const spaFallback = (req, res, next) => {
+        if ((req.method !== 'GET' && req.method !== 'HEAD') || !req.url) return next();
+        const pathname = req.url.split('?')[0];
+        if (!/^\/(fr|ru)(\/|$)/.test(pathname)) return next();
+
+        const compiler = devServer.compiler;
+        const outputPath = compiler.options.output.path;
+        const fs = compiler.outputFileSystem;
+        if (!fs || !fs.readFile) return next();
+        const indexPath = path.join(outputPath, 'index.html');
+        fs.readFile(indexPath, (err, data) => {
+          if (err) return next();
+          res.setHeader('Content-Type', 'text/html; charset=utf-8');
+          res.end(data);
+        });
+      };
+      middlewares.unshift({ name: 'spa-fallback', middleware: spaFallback });
+      return middlewares;
+    },
   },
   devtool: 'source-map',
 };
