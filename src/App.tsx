@@ -103,6 +103,10 @@ function TimelinePage() {
     document.documentElement.lang = locale === 'ru' ? 'ru' : locale === 'fr' ? 'fr' : 'en';
   }, [locale]);
 
+  useEffect(() => {
+    document.title = localeConfig[locale].common.siteTitle;
+  }, [locale]);
+
   function handleLocaleChange(newLocale: LocaleCode) {
     navigate(getPathForLocale(newLocale));
   }
