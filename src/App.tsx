@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { Routes, Route, useParams, useNavigate } from 'react-router-dom';
 import { movements } from './data/movements';
 import { localeConfig, getPathForLocale, type LocaleCode } from './i18n';
+import { countryNameOrCode } from './locales/en/countryNames';
 import { LanguageSwitcher } from './components/LanguageSwitcher';
 
 const sortedMovements = [...movements].sort((a, b) => a.startYear - b.startYear);
@@ -73,14 +74,14 @@ function TimelineContent({ locale }: { locale: LocaleCode }) {
                   background: 'var(--art-surface)',
                   borderColor: 'var(--art-border)',
                   color: 'var(--art-text)',
-                  boxShadow: '0 2px 12px rgba(0,0,0,0.08)',
+                  boxShadow: '0 1px 3px rgba(15, 23, 42, 0.08), 0 8px 24px rgba(15, 23, 42, 0.06)',
                 }}
               >
                 <h3 className="text-lg font-semibold" style={{ color: 'var(--art-text)' }}>
                   {m.name}
                 </h3>
                 <p className="text-sm mt-1" style={{ color: 'var(--art-text-muted)' }}>
-                  Regions: {m.regionCodes.join(', ')}
+                  Regions: {m.regionCodes.map(countryNameOrCode).join(', ')}
                 </p>
                 <p className="text-xs mt-2" style={{ color: 'var(--art-text-faint)' }}>
                   ID: {m.id}
