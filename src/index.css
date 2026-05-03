@@ -6,14 +6,15 @@
 
 :root {
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
-  --art-bg: #f5f1eb;
-  --art-surface: #fffbf7;
-  --art-border: rgba(196, 112, 74, 0.4);
-  --art-accent: #b85a38;
-  --art-accent-soft: rgba(196, 112, 74, 0.2);
-  --art-text: #1c1b19;
-  --art-text-muted: #5c5650;
-  --art-text-faint: #8a837b;
+  /* White page, light panels, blue accent */
+  --art-bg: #ffffff;
+  --art-surface: #f8fafc;
+  --art-border: rgba(37, 99, 235, 0.28);
+  --art-accent: #2563eb;
+  --art-accent-soft: rgba(37, 99, 235, 0.16);
+  --art-text: #0f172a;
+  --art-text-muted: #475569;
+  --art-text-faint: #64748b;
 }
 
 body {
